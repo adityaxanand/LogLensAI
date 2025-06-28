@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 220 13% 9.1%; /* A very dark, slightly cool gray */
+    --foreground: 210 20% 98%; /* A very light gray, almost white */
+
+    --card: 220 13% 13.1%; /* A slightly lighter shade than background */
+    --card-foreground: 210 20% 98%;
+
+    --popover: 220 13% 9.1%;
+    --popover-foreground: 210 20% 98%;
+
+    --primary: 210 100% 60%; /* A vibrant blue for primary actions */
+    --primary-foreground: 210 20% 98%;
+
+    --secondary: 215 28% 17%; /* A muted blue for secondary elements */
+    --secondary-foreground: 210 20% 98%;
+
+    --muted: 215 28% 22%; /* A slightly lighter muted blue */
+    --muted-foreground: 215 20% 65%;
+
+    --accent: 150 75% 50%; /* A bright green for accents */
+    --accent-foreground: 210 20% 98%;
+
+    --destructive: 0 72% 51%; /* A strong red for destructive actions */
+    --destructive-foreground: 210 20% 98%;
+
+    --border: 215 28% 20%; /* A border color that subtly stands out */
+    --input: 215 28% 22%;
+    --ring: 210 100% 60%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 220 13% 9.1%;
+    --foreground: 210 20% 98%;
+
+    --card: 220 13% 13.1%;
+    --card-foreground: 210 20% 98%;
+
+    --popover: 220 13% 9.1%;
+    --popover-foreground: 210 20% 98%;
+
+    --primary: 210 100% 60%;
+    --primary-foreground: 210 20% 98%;
+
+    --secondary: 215 28% 17%;
+    --secondary-foreground: 210 20% 98%;
+
+    --muted: 215 28% 22%;
+    --muted-foreground: 215 20% 65%;
+
+    --accent: 150 75% 50%;
+    --accent-foreground: 210 20% 98%;
+
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 210 20% 98%;
+
+    --border: 215 28% 20%;
+    --input: 215 28% 22%;
+    --ring: 210 100% 60%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* Custom styles for recharts to better match the theme */
+.recharts-tooltip-cursor {
+  fill: hsl(var(--muted) / 0.5);
+}
+.recharts-text.recharts-cartesian-axis-tick-value {
+    font-family: var(--font-inter);
+    font-size: 12px;
+}
