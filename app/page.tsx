@@ -156,7 +156,7 @@ const testimonials = [
     avatar: "/placeholder.svg?height=40&width=40",
   },
   {
-    name: "Sneha Dwivedi",
+    name: "Shreya Sinha",
     role: "Lead Developer",
     company: "InnovateLabs",
     content: "The real-time monitoring and alerting system has transformed how we handle production issues.",
