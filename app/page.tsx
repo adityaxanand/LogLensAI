@@ -946,7 +946,7 @@ export default function LandingPage() {
             <p>&copy; 2025 LogLens AI. All rights reserved.</p>
             <div className="flex items-center space-x-6 mt-4 md:mt-0">
               <span className="text-sm">Made with</span>
-              <div className="flex items-center space-x-0">
+              <div className="flex items-center space-x-2">
                 <div className="w-2 h-2 bg-red-500 rounded-full animate-pulse" />
                 <span className="text-sm">by an Engineer, for Engineers!</span>
               </div>
