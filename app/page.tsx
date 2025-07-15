@@ -131,7 +131,7 @@ const advancedFeatures = [
 
 const testimonials = [
   {
-    name: "Sarah Chen",
+    name: "Aditi Anand",
     role: "Senior DevOps Engineer",
     company: "TechCorp",
     content:
@@ -140,7 +140,7 @@ const testimonials = [
     avatar: "/placeholder.svg?height=40&width=40",
   },
   {
-    name: "Marcus Rodriguez",
+    name: "Avni Sharma",
     role: "CTO",
     company: "StartupXYZ",
     content: "The AI-powered root cause analysis is phenomenal. We catch issues before they become problems.",
@@ -148,7 +148,7 @@ const testimonials = [
     avatar: "/placeholder.svg?height=40&width=40",
   },
   {
-    name: "Emily Watson",
+    name: "Aditya Anand",
     role: "Site Reliability Engineer",
     company: "CloudScale",
     content: "Best investment we've made for our infrastructure monitoring. The insights are incredible.",
@@ -156,7 +156,7 @@ const testimonials = [
     avatar: "/placeholder.svg?height=40&width=40",
   },
   {
-    name: "David Kim",
+    name: "Sneha Dwivedi",
     role: "Lead Developer",
     company: "InnovateLabs",
     content: "The real-time monitoring and alerting system has transformed how we handle production issues.",
@@ -164,7 +164,7 @@ const testimonials = [
     avatar: "/placeholder.svg?height=40&width=40",
   },
   {
-    name: "Lisa Thompson",
+    name: "Saurav Singh",
     role: "Security Analyst",
     company: "SecureNet",
     content: "The security insights and threat detection capabilities are unmatched in the industry.",
@@ -172,7 +172,7 @@ const testimonials = [
     avatar: "/placeholder.svg?height=40&width=40",
   },
   {
-    name: "Alex Johnson",
+    name: "Komal Aggarwal",
     role: "Platform Engineer",
     company: "DataFlow",
     content: "LogLens AI's predictive analytics helped us prevent three major outages last month.",
